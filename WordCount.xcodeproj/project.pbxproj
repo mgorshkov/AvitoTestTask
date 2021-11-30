@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B431F062275166FC00A31B4A /* LineProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B431F060275166FC00A31B4A /* LineProcessor.cpp */; };
+		B431F065275167F100A31B4A /* WordCollector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B431F063275167F100A31B4A /* WordCollector.cpp */; };
+		B431F06827529EA300A31B4A /* ThreadedLineProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B431F06627529EA300A31B4A /* ThreadedLineProcessor.cpp */; };
 		B4871C4423DB72BC0047B138 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4871C4323DB72BC0047B138 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B431F05F274FB85500A31B4A /* TimeLogger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TimeLogger.hpp; sourceTree = "<group>"; };
+		B431F060275166FC00A31B4A /* LineProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LineProcessor.cpp; sourceTree = "<group>"; };
+		B431F061275166FC00A31B4A /* LineProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LineProcessor.hpp; sourceTree = "<group>"; };
+		B431F063275167F100A31B4A /* WordCollector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WordCollector.cpp; sourceTree = "<group>"; };
+		B431F064275167F100A31B4A /* WordCollector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WordCollector.hpp; sourceTree = "<group>"; };
+		B431F06627529EA300A31B4A /* ThreadedLineProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadedLineProcessor.cpp; sourceTree = "<group>"; };
+		B431F06727529EA300A31B4A /* ThreadedLineProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ThreadedLineProcessor.hpp; sourceTree = "<group>"; };
 		B4871C4023DB72BC0047B138 /* WordCount */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WordCount; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4871C4323DB72BC0047B138 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -57,7 +67,14 @@
 		B4871C4223DB72BC0047B138 /* WordCount */ = {
 			isa = PBXGroup;
 			children = (
+				B431F05F274FB85500A31B4A /* TimeLogger.hpp */,
 				B4871C4323DB72BC0047B138 /* main.cpp */,
+				B431F060275166FC00A31B4A /* LineProcessor.cpp */,
+				B431F061275166FC00A31B4A /* LineProcessor.hpp */,
+				B431F063275167F100A31B4A /* WordCollector.cpp */,
+				B431F064275167F100A31B4A /* WordCollector.hpp */,
+				B431F06627529EA300A31B4A /* ThreadedLineProcessor.cpp */,
+				B431F06727529EA300A31B4A /* ThreadedLineProcessor.hpp */,
 			);
 			path = WordCount;
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B431F062275166FC00A31B4A /* LineProcessor.cpp in Sources */,
 				B4871C4423DB72BC0047B138 /* main.cpp in Sources */,
+				B431F065275167F100A31B4A /* WordCollector.cpp in Sources */,
+				B431F06827529EA300A31B4A /* ThreadedLineProcessor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
